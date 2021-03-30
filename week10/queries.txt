@@ -1,0 +1,11 @@
+0. db.Restaurant.find()
+
+1. db.Restaurant.find({}, { restaurant_id: 1,  name: 1, borough: 1 , cuisine: 1 } )
+
+2. db.Restaurant.find({}, { restaurant_id: 1,  name: 1, borough: 1 , cuisine: 1 } ).limit(5)
+
+3. db.restaurant.find({ $or: [ { name: "Wil*/" }, { cuisine : {$nin : ["American", "Chinese"]}} ] },{restaurant_id: 1, name: 1, borough: 1, cuisine: 1})
+
+4. db.restaurant.find({name: {$ne: "*/mon*/"}},{name: 1, borough: 1, cuisine: 1, longitude: 1, attitude: 1})
+
+5. db.restaurant.find({borough: {$in: ["Staten Island", "Queens", "Bronx", "Brooklyn"]}},{restaurant_id: 1, name: 1, borough: 1, cuisine: 1})
