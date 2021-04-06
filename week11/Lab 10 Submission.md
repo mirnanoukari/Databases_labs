@@ -70,7 +70,7 @@ commit;
 
 Terminal 1 output after committing:
 
-<img src="photo_2021-04-06_15-34-52.jpg" alt="photo_2021-04-06_15-34-52" style="zoom:30%;" />
+<img src="photo_2021-04-06_15-34-52.jpg" alt="photo_2021-04-06_15-34-52" style="zoom: 33%;" />
 
 
 
@@ -99,7 +99,7 @@ where fullname ='Alice Jones'
 
 Output:
 
-<img src="/home/mirna/Documents/Databases_labs/week11/final.png" style="zoom:50%;" />
+<img src="final.png" style="zoom: 50%;" />
 
 The changes need to be committed before running the next step, otherwise we will have execution error.
 
