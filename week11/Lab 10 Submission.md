@@ -16,7 +16,7 @@ select * from account;
 
 The output we get:
 
-![](/home/mirna/Downloads/Telegram Desktop/photo_2021-04-06_15-13-26.jpg)
+![](photo_2021-04-06_15-13-26.jpg)
 
 #### Step 2
 
@@ -40,7 +40,7 @@ select * from account;
 
 We get:
 
-![](/home/mirna/Downloads/Telegram Desktop/photo_2021-04-06_15-21-15.jpg)
+![](photo_2021-04-06_15-21-15.jpg)
 
 #### Step 4
 
@@ -52,7 +52,7 @@ select * from account;
 
 We get:
 
-![photo_2021-04-06_15-29-53](/home/mirna/Downloads/Telegram Desktop/photo_2021-04-06_15-29-53.jpg)
+![photo_2021-04-06_15-29-53](photo_2021-04-06_15-29-53.jpg)
 
 
 
@@ -66,13 +66,17 @@ The outputs are different due to the reason that changes have not been committed
 commit;
 ```
 
+
+
 Terminal 1 output after committing:
 
-<img src="/home/mirna/Downloads/Telegram Desktop/photo_2021-04-06_15-34-52.jpg" alt="photo_2021-04-06_15-34-52" style="zoom: 33%;" />
+<img src="photo_2021-04-06_15-34-52.jpg" alt="photo_2021-04-06_15-34-52" style="zoom:50%;" />
+
+
 
 Terminal 2 output after committing:
 
-![photo_2021-04-06_15-35-33](/home/mirna/Downloads/Telegram Desktop/photo_2021-04-06_15-35-33.jpg)
+![photo_2021-04-06_15-35-33](photo_2021-04-06_15-35-33.jpg)
 
 #### Step 6
 
@@ -95,7 +99,7 @@ where fullname ='Alice Jones'
 
 Output:
 
-![photo_2021-04-06_15-41-34](/home/mirna/Downloads/Telegram Desktop/photo_2021-04-06_15-41-34.jpg)
+![photo_2021-04-06_15-41-34](photo_2021-04-06_15-41-34.jpg)
 
 The changes need to be committed before running the next step, otherwise we will have execution error.
 
@@ -113,7 +117,7 @@ where fullname='Alice Jones'
 
 Output:
 
-![photo_2021-04-06_15-42-22](/home/mirna/Downloads/Telegram Desktop/photo_2021-04-06_15-42-22.jpg)
+![photo_2021-04-06_15-42-22](photo_2021-04-06_15-42-22.jpg)
 
 
 
